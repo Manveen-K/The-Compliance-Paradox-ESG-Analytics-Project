@@ -1,0 +1,6 @@
+pair,pearson_r,pearson_p,spearman_rho,N
+NDI vs Greenwashing_Ratio,0.6486,0.1151,0.3571,7
+NDI vs NVI,0.663,0.1045,0.3571,7
+NDI vs DM_Balance,0.4411,0.3219,0.4286,7
+Greenwashing_Ratio vs NVI,0.977,0.0002,1.0,7
+ARG vs NDI,-0.2059,0.6577,0.2143,7
