@@ -1,9 +1,8 @@
-# The-Compliance-Paradox
+# 🌍 The-Compliance-Paradox
 A Forensic NLP Analysis of ESG Narrative Divergence in European Energy Reporting (2019–2025)
-# 🌍 ESG Narrative Divergence Analysis (2019–2025)
 ### ESG Analytics · Group 7
 
-A reproducible **three-layer NLP pipeline** that forensically distinguishes genuine ESG performance from narrative inflation in corporate sustainability reports — applied to **Shell plc**, **BP plc**, and **Ørsted A/S** across 21 company-year observations (2019–2025).
+A reproducible **three-layer NLP pipeline** that forensically distinguishes genuine ESG performance from narrative inflation in corporate sustainability reports - applied to **Shell plc**, **BP plc**, and **Ørsted A/S** across 21 company-year observations (2019–2025).
 
 ---
 
@@ -80,6 +79,6 @@ Models used: **ClimateBERT** (narrative scoring) · **FinBERT-ESG-9** (materiali
 
 - Shell, BP, and Ørsted annual **Sustainability Reports** (2019–2025), sourced from official corporate repositories.
 - Carbon intensity data transcribed from ESG data books and cross-verified against investor presentations.
-- 20,905 ESG sentences total: Shell 9,046 · BP 6,164 · Ørsted 5,695.
+- 20,905 ESG sentences total: Shell=9,046, BP=6,164, Ørsted=5,695.
 
 
