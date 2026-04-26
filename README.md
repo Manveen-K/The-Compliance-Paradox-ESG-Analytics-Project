@@ -1,4 +1,4 @@
-# 🌍 The-Compliance-Paradox
+# The-Compliance-Paradox
 A Forensic NLP Analysis of ESG Narrative Divergence in European Energy Reporting (2019–2025)
 ### ESG Analytics · Group 7
 
@@ -6,7 +6,7 @@ A reproducible **three-layer NLP pipeline** that forensically distinguishes genu
 
 ---
 
-## 📌 Overview
+## Overview
 
 Corporate sustainability reporting has proliferated alongside rising accusations of greenwashing. Existing ESG rating methodologies treat disclosure *volume* as a proxy for disclosure *quality*, rewarding narrative ambition without anchoring it to operational performance. This project addresses that gap by combining transformer-based sentiment analysis, ensemble materiality classification, and keyword density drift — all grounded in verified physical emissions data.
 
@@ -14,7 +14,7 @@ Corporate sustainability reporting has proliferated alongside rising accusations
 
 ---
 
-## 🏗️ Framework Architecture
+## Framework Architecture
 
 The pipeline consists of three independent analytical layers:
 
@@ -49,7 +49,7 @@ NVI                       = (Commit − Ops) / (Commit + Ops + ε)  ∈ (-1,+1) 
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 | Company | Greenwashing Archetype | Mean NDI | Emissions Change |
 |---|---|---|---|
@@ -61,7 +61,7 @@ NVI                       = (Commit − Ops) / (Commit + Ops + ε)  ∈ (-1,+1) 
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Installed automatically in Cell 1 of each notebook:
 
@@ -75,7 +75,7 @@ Models used: **ClimateBERT** (narrative scoring) · **FinBERT-ESG-9** (materiali
 
 ---
 
-## 📄 Data Sources
+## Data Sources
 
 - Shell, BP, and Ørsted annual **Sustainability Reports** (2019–2025), sourced from official corporate repositories.
 - Carbon intensity data transcribed from ESG data books and cross-verified against investor presentations.
